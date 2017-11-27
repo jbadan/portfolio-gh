@@ -1,0 +1,36 @@
+.logoImage{
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+  border: 6px solid #456B74;
+  margin: 20px 0;
+}
+
+.white{
+  color: #F3F3F3;
+}
+
+i{
+  margin: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: #456B74;
+}
+
+a:hover{
+  color: #456B74
+}
+
+button{
+  border: 2px solid #F3F3F3;
+  background: none;
+  padding: 8px;
+  color: #F3F3F3;
+  margin: 1vh .5vw;
+}
+
+.minHeightRow{
+  max-height: 250px;
+}
