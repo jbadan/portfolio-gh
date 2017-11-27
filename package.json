@@ -1,6 +1,6 @@
 {
-  "name": "portfolio_v2",
-  "homepage": ".",
+  "name": "portfolio_gh",
+  "homepage": "https://jbadan.github.io/portfolio_gh",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,8 @@
     "reactstrap": "^5.0.0-alpha.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
