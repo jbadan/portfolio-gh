@@ -31,16 +31,16 @@ class Home extends Component {
             </div>
             <div className="row text-center">
               <div className="col-md-12">
-                <Link to="/about">
+                <Link to="/portfolio_gh/about">
                     <button type="button">About</button>
                 </Link>
-                <Link to="/work">
+                <Link to="/portfolio_gh/work">
                     <button type="button">Projects</button>
                 </Link>
-                <Link to="/resume">
+                <Link to="/portfolio_gh/resume">
                     <button type="button">Resume</button>
                 </Link>
-                <Link to="/contact">
+                <Link to="/portfolio_gh/contact">
                     <button type="button">Contact</button>
                 </Link>
 
