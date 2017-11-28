@@ -37,12 +37,12 @@ const App = props => {
        <PageFade key={locationKey}>
          <section className="fix-container">
           <Switch location ={props.location}>
-           <Route exact path="/" component={Home} />
-           <Route path="/about" component={About} />
-           <Route path="/work" component={Work} />
-           <Route path="/contact" component={Contact} />
-           <Route path="/resume" component={Resume} />
-           <Route path="*" component={NotFound} />
+           <Route exact path="/portfolio_gh" component={Home} />
+           <Route path="/portfolio_gh/about" component={About} />
+           <Route path="/portfolio_gh/work" component={Work} />
+           <Route path="/portfolio_gh/contact" component={Contact} />
+           <Route path="/portfolio_gh/resume" component={Resume} />
+           <Route path="/portfolio_gh/*" component={NotFound} />
          </Switch>
         </section>
        </PageFade>
