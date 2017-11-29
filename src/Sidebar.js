@@ -32,16 +32,16 @@ class Sidebar extends Component {
               </div>
               <div className="row text-center">
                 <div className="col-md-12">
-                  <Link to="/portfolio_gh/about">
+                  <Link to="/about">
                       <button type="button">About</button>
                   </Link>
-                  <Link to="/portfolio_gh/work">
+                  <Link to="/work">
                       <button type="button">Projects</button>
                   </Link>
-                  <Link to="/portfolio_gh/resume">
+                  <Link to="/resume">
                       <button type="button">Resume</button>
                   </Link>
-                  <Link to="/portfolio_gh/contact">
+                  <Link to="/contact">
                       <button type="button">Contact</button>
                   </Link>
 
